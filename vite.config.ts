@@ -7,7 +7,7 @@ export default defineConfig(() => {
   return {
     plugins: [
       qwikCity({
-        // basePathname: "/qwik-sandbox/",
+        basePathname: "/qwik-sandbox/",
       }),
       qwikVite(),
       tsconfigPaths(),
