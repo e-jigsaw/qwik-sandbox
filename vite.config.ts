@@ -5,12 +5,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(() => {
   return {
-    plugins: [
-      qwikCity({
-        basePathname: "/qwik-sandbox/",
-      }),
-      qwikVite(),
-      tsconfigPaths(),
-    ],
+    plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
   };
 });
