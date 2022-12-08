@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdaptor({
-        origin: "https://e-jigsaw.github.io",
+        origin: "https://voluble-snickerdoodle-61f73c.netlify.app",
       }),
     ],
   };
